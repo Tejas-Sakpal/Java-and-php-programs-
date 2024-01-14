@@ -1,0 +1,26 @@
+Computer_Science{
+    display: block;
+}
+
+
+
+Student_name {
+    color: blue;
+    font-family: Bodani MT;
+    font-size: 16pts;
+    font-style: italic;
+}
+
+Class_name {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pts;
+    font-style: normal;
+}
+
+Percentage {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14pts;
+    font-style: oblique;
+}

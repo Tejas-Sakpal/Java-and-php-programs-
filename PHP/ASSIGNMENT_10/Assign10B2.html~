@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<title>Assign10B2</title>
+
+<head>
+<script type="text/javascript">
+function format(){
+var str= new String(document.getElementById('text').value);
+document.write(str.bold()+"<br>");
+document.write(str.italics()+"<br>");
+document.write("<u>"+str+"</u>"+"<br>");
+document.write(str.strike()+"<br>");
+document.write(str.link()+"<br>");
+}
+</script>
+</head>
+
+<body>
+<form>
+<input type="text" id="text"/><br><br>
+<input type="button" value="submit" onclick="javascript:format()"/>
+</form>
+</body>
+
+</html>

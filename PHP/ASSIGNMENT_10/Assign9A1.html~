@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+<title>MY WINDOW ALERT</title>
+<body>
+<script type="text/javascript"> 
+	window.alert("GooD MorningG");
+</script>
+</body>
+</html>

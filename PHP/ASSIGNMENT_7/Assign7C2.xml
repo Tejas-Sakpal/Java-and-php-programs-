@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Assign7C2.css"?>
+<Cricket_team>
+  <Country Name="India">
+    <Player_name>Sachin Tendulkar</Player_name>
+    <Wickets>4</Wickets>
+    <Runs>655</Runs>
+  </Country>
+  <Country Name="England">
+    <Player_name>Ben Stokes</Player_name>
+    <Wickets>6</Wickets>
+    <Runs>476</Runs>
+  </Country>
+</Cricket_team>

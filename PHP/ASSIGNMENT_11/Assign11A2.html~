@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<title>Assign11A1</title>
+
+<head>
+<script type="text/javascript">
+function val_user(){
+str = document.getElementById('user').value;
+if(str==""){
+document.getElementById("a").innerHTML="ENTER USERNAME: ";
+}
+else if(str.length<4){
+document.getElementById("a").innerHTML="USERNAME TOO SHORT";
+}
+else{
+document.getElementById("a").innerHTML="VALID USERNAME";
+}
+}
+</script>
+</head>
+
+<body>
+<table align="center">
+<form>
+<tr>
+<td><b>Enter Username: </b></td>
+<td><input type="text" id="user"/></td>
+</tr>
+<tr>
+<td><span id="a" ></span></td>
+</tr>
+<tr>
+<td><input type="button" value="submit" onclick="val_user()"/></td>
+</tr>
+</form>
+</table>
+</body>
+
+</html>

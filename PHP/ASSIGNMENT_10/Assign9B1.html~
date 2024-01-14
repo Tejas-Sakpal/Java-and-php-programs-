@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<title>Form Validation</title>
+<body>
+<form>
+Enter Username: <input type="text" id="user"/><br>
+Enter Password: <input type="password" id="pwd"/><br><br>
+
+<input type="button" value="Login" onclick="javascript:validate()" />
+</form>
+
+<script type="text/javascript">
+function validate(){
+if((document.getElementById("user").value== "Sumant") && (document.getElementById("pwd").value=="12345678")){
+alert("Login Successful");
+}
+
+else{
+alert("Login Failed");
+}
+}
+</script>
+</body>
+</html>

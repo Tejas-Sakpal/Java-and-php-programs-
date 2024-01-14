@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function m1(str) {
+        var ob = false;
+        ob = new XMLHttpRequest();
+
+        ob.open("GET", "Assign11C1.php?q=" + str);
+        ob.send();
+
+        ob.onreadystatechange = function () {
+          if (ob.readyState == 4 && ob.status == 200) {
+            document.getElementById("a").innerHTML = ob.responseText;
+          }
+        };
+      }
+    </script>
+  </head>
+
+  <body>
+      <font color="green" face="verdana"><h3>Choose a Location for a vacation!</h3></font>
+    <form>
+        <font color="orange" face="comic sans ms"><h4>Search Location Here-> </h4></font><input
+        type="text"
+        name="search"
+        size="20"
+        onkeyup="m1(form.search.value)"
+      />
+
+      <input type="button" value="submit" onclick="m1(form.search.value)" />
+    </form>
+    <font color="orange" face="comic sans ms"><h4></h4>Suggestions :   </h4></font><span id="a"></span><br />
+  </body>
+</html>

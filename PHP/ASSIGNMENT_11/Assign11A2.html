@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      function val_user() {
+        str = document.getElementById("username").value;
+        if (str == "") {
+          document.getElementById("a").innerHTML =
+            "Enter username";
+        } else if (str.length <= 3) {
+          document.getElementById("a").innerHTML = "Username is too short";
+        } else {
+          document.getElementById("a").innerHTML = "Valid username";
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <table align="center">
+        <tr>
+          <td><b>Enter Username : </b></td>
+          <td><input type="text" id="username" /></td>
+        </tr>
+        <tr>
+          <td align="center" colspan="2">
+            <font face="verdana" color="red" size="5"><span id="a"></span></font>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <input type="button" value="submit" onclick="val_user()" />
+          </th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

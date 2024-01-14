@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" href="Assign1A1.css">
+<title>ASSIGNMENT 1 SET A QUESTION 1</title>
+<body>
+	<div class="logo">
+		<img src="logo_ass1A1.png"/>
+	</div>
+
+	<div class="container">
+		<nav>
+		<table border=0>
+		<tr>
+		<td>
+		<div class="column1">
+			<b>STUDENT PROFILE</b>
+			<ul>
+			<li>Roll No: 121</li>
+			<li>Name: Sumant</li>
+			<li>Contact: 987654219</li>
+			<li><img src="profile_ass1A1.png"/></li>
+			<li>Class: TYBCS</li>
+			</ul>
+		</div>
+		</td>
+		<td>
+		<div class="column2">
+			<b>Areas Of Interest</b>
+			<ul>
+			<li>Cycling</li>
+			<li>Trekking</li>
+			<li>Coding</li>
+			<li>Binge Watching</li>
+			</ul>
+
+			<b>Subject:</b>
+			<ul>
+			<li>Java Development</li>
+			<li>Advanced Web Designing</li>
+			<li>Numerical Methods</li>
+			<li>Theory Of Computer Science</li>
+			</ul>
+
+			<b>Topics:</b>
+			<ul>
+			<li>Debugging in Java</li>
+			<li>Web Networking</li>
+			<li>New Technology</li>
+			<li>Data Security</li>
+			</ul>
+		</div>
+		</td>
+		</tr>
+		</table>
+		</nav>
+	</div>
+
+	<div class="footer">
+		<a class"footer1">SUMANT PVT LLD</a><br>
+		<a class="footer2">*terms and conditions</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+th{
+background: green;
+color: white;
+height: 50px;
+}
+
+td{
+background: yellow;
+height: 200px;
+}
+
+li{
+padding: 10px;
+}

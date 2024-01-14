@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<title>My Javascript Function</title>
+<body onload="javascript:greet()>
+
+<script type="text/javascript" >
+function greet(){
+window.alert("GooD MorninG");
+}
+
+</script>
+</body>
+</html>

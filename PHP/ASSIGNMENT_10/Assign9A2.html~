@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<title>My Javascript Function</title>
+<body>
+<form>
+<input type="buttton" value="greet" onclick="javascript:greet()"/>
+
+</form>
+
+<script type="text/javascript" >
+function greet(){
+window.alert("GooD MorninG");
+}
+</script>
+</body>
+</html>

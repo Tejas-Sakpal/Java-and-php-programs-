@@ -1,0 +1,65 @@
+body{
+    border: 2px;
+    border-color: black;
+    background-color: black;
+    padding: 20px;
+    height: 20%;
+    width: 100%;
+    left: auto;
+}
+
+body .logo{
+    width: 100%;
+}
+
+.container{
+    border: 2px;
+    background-color: greenyellow;
+    border-color: blue;
+    padding: 20px;
+    height: auto;
+    left: auto;
+    top:auto;
+}
+
+}
+
+.container nav .column1{
+    border: 2px;
+    background-color: aqua;
+    border-color: black;
+    margin: 2%;
+    padding: 20px;
+    width: 40%;
+    left: auto;
+    top:auto;
+}
+
+.container nav .column2{
+    border: 2px;
+    background-color: antiquewhite;
+    border-color: black;
+    padding: 20px;
+    margin: 2%;
+    width: 40%;
+    left: 50%;
+    top: 50%;
+}
+
+
+.footer{
+    border: 2px;
+    border-color: black;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.footer .footer1{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer .footer2{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

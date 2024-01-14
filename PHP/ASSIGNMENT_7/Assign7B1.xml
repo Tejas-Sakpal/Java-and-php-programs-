@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="Assign7B1.css"?>
+<CD_Store>
+  <Movie>
+    <Title1>Mr. India</Title1>
+    <Release_Year>1987</Release_Year>
+  </Movie>
+  <Movie>
+    <Title1>Holiday</Title1>
+    <Release_Year>2014</Release_Year>
+  </Movie>
+  <Movie>
+    <Title1>LOC</Title1>
+    <Release_Year>2003</Release_Year>
+  </Movie>
+</CD_Store>

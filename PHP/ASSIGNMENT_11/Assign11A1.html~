@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<title>Assign11A1</title>
+
+<head>
+<script type="text/javascript">
+function loadXMLDoc(){
+req= new XMLHttpRequest();
+req.onreadystatechange =function(){
+if(req.readystate==4 && req.status==200){
+document.getElementById("txt").innerHTML=req.response.Text;
+}
+};
+req.open("GET","sample.txt",true)
+req.send();
+}
+</script>
+</head>
+
+<body>
+<div id="txt"></div><br><br>
+<input type="button" value="Show Text" onclick="loadXMLDoc()"/>
+</body>
+
+</html>

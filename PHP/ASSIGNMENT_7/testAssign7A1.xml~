@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="Assign7A1.css"?>
+<Course>
+  <Computer_Science>
+    <Student_name>Ajay Veer  </Student_name>
+    <Class_name>TYBSc</Class_name>
+    <Percentage>70.69</Percentage>
+  </Computer_Science>
+  <Computer_Science>
+    <Student_name>Amit Tupe  </Student_name>
+    <Class_name>TYBSc</Class_name>
+    <Percentage>81.25</Percentage>
+  </Computer_Science>
+  <Computer_Science>
+    <Student_name>Ashutosh Bandal  </Student_name>
+    <Class_name>TYBSc</Class_name>
+    <Percentage>84.66</Percentage>
+  </Computer_Science>
+  <Computer_Science>
+    <Student_name>Sumant Pujari  </Student_name>
+    <Class_name>TYBSc</Class_name>
+    <Percentage>91.55</Percentage>
+  </Computer_Science>
+  <Computer_Science>
+    <Student_name>Akhil Salunke  </Student_name>
+    <Class_name>TYBSc</Class_name>
+    <Percentage>82.49</Percentage>
+  </Computer_Science>
+</Course>

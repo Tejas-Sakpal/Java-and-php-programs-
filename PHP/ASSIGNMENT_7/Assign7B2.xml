@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Assign7B2.css"?>
+<Mayanagari_CD_Store>
+  <Classical>
+    <Movie_Name>Titanic</Movie_Name>
+    <Release_Year>1997</Release_Year>
+    <Movie_Name>In the Heat of the Night</Movie_Name>
+    <Release_Year>1967</Release_Year>
+  </Classical>
+  <Action>
+    <Movie_Name>The Old Guard</Movie_Name>
+    <Release_Year>2020</Release_Year>
+    <Movie_Name>6 Underground</Movie_Name>
+    <Release_Year>2019</Release_Year>
+  </Action>
+  <Horror>
+    <Movie_Name>Conjuring</Movie_Name>
+    <Release_Year>2013</Release_Year>
+    <Movie_Name>Annabella</Movie_Name>
+    <Release_Year>2019</Release_Year>
+  </Horror>
+</Mayanagari_CD_Store>
